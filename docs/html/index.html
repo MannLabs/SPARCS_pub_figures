@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Recreate Figures from SPARCSpy Manuscript &mdash; SPARCS_pub_figures 1.0.0 documentation</title>
@@ -13,10 +13,11 @@
     <script src="_static/js/html5shiv.min.js"></script>
   <![endif]-->
   
-        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
-        <script src="_static/jquery.js"></script>
-        <script src="_static/underscore.js"></script>
-        <script src="_static/doctools.js"></script>
+        <script src="_static/jquery.js?v=5d32c60e"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="_static/documentation_options.js?v=8d563738"></script>
+        <script src="_static/doctools.js?v=888ff710"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
         <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
@@ -29,11 +30,15 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" >
-            <a href="#" class="icon icon-home"> SPARCS_pub_figures
+
+          
+          
+          <a href="#" class="icon icon-home">
+            SPARCS_pub_figures
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
   </form>
@@ -47,11 +52,11 @@
 <li class="toctree-l1"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-3">4. Figure 3</a></li>
 <li class="toctree-l1"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-4">5. Figure 4</a></li>
 <li class="toctree-l1"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-5">6. Figure 5</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Extended-Data-Figure-1">7. Extended Data Figure 1</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Extended-Data-Figure-2">8. Extended Data Figure 2</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Extended-Data-Figure-3">9. Extended Data Figure 3</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Extended-Data-Figure-4">10. Extended Data Figure 4</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Extended-Data-Figure-5">11. Extended Data Figure 5</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-S1">7. Figure S1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-S2">8. Figure S2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-S3">9. Figure S3</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-S4">10. Figure S4</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-S5">11. Figure S5</a></li>
 </ul>
 
         </div>
@@ -67,7 +72,7 @@
         <div class="rst-content">
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-      <li><a href="#" class="icon icon-home"></a></li>
+      <li><a href="#" class="icon icon-home" aria-label="Home"></a></li>
       <li class="breadcrumb-item active">Recreate Figures from SPARCSpy Manuscript</li>
       <li class="wy-breadcrumbs-aside">
             <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
@@ -79,75 +84,83 @@
            <div itemprop="articleBody">
              
   <section id="recreate-figures-from-sparcspy-manuscript">
-<h1>Recreate Figures from SPARCSpy Manuscript<a class="headerlink" href="#recreate-figures-from-sparcspy-manuscript" title="Permalink to this headline"></a></h1>
+<h1>Recreate Figures from SPARCSpy Manuscript<a class="headerlink" href="#recreate-figures-from-sparcspy-manuscript" title="Link to this heading"></a></h1>
 <div class="toctree-wrapper compound">
 <p class="caption" role="heading"><span class="caption-text">Notebook</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html">1. Code to Recreate all Figures</a></li>
 <li class="toctree-l1"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-1">2. Figure 1</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-1c">2.1. Figure 1c</a></li>
-<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-1d">2.2. Figure 1d</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-1C">2.1. Figure 1C</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-1D">2.2. Figure 1D</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-2">3. Figure 2</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-2a">3.1. Figure 2a</a></li>
-<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-2d">3.2. Figure 2d</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-2A">3.1. Figure 2A</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-2D">3.2. Figure 2D</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-3">4. Figure 3</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-3a">4.1. Figure 3a</a></li>
-<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-3c">4.2. Figure 3c</a></li>
-<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-3d">4.3. Figure 3d</a></li>
-<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-3e">4.4. Figure 3e</a></li>
-<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-3f">4.5. Figure 3f</a></li>
-<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-3g">4.6. Figure 3g</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-3A">4.1. Figure 3A</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-3C">4.2. Figure 3C</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-3D">4.3. Figure 3D</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-3E">4.4. Figure 3E</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-3F">4.5. Figure 3F</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-3G">4.6. Figure 3G</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-4">5. Figure 4</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-4b">5.1. Figure 4b</a></li>
-<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-4c">5.2. Figure 4c</a></li>
-<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-4d">5.3. Figure 4d</a></li>
-<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-4f">5.4. Figure 4f</a></li>
-<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-4g">5.5. Figure 4g</a></li>
-<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-4h">5.6. Figure 4h</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-4B">5.1. Figure 4B</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-4C">5.2. Figure 4C</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-4D">5.3. Figure 4D</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-4F">5.4. Figure 4F</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-4G">5.5. Figure 4G</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-4H">5.6. Figure 4H</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-5">6. Figure 5</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-5a">6.1. Figure 5a</a></li>
-<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-5b">6.2. Figure 5b</a></li>
-<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-5d">6.3. Figure 5d</a></li>
-<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-5e">6.4. Figure 5e</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-5A">6.1. Figure 5A</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-5B">6.2. Figure 5B</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-5D">6.3. Figure 5D</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-5E">6.4. Figure 5E</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Extended-Data-Figure-1">7. Extended Data Figure 1</a></li>
-<li class="toctree-l1"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Extended-Data-Figure-2">8. Extended Data Figure 2</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Extended-Data-Figure-2b">8.1. Extended Data Figure 2b</a></li>
-<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Extended-Data-Figure-2c">8.2. Extended Data Figure 2c</a></li>
-<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Extended-Data-Figure-2d">8.3. Extended Data Figure 2d</a></li>
-<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Extended-Data-Figure-2e">8.4. Extended Data Figure 2e</a></li>
-<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Extended-Data-Figure-2f">8.5. Extended Data Figure 2f</a></li>
-<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Extended-Data-Figure-2g">8.6. Extended Data Figure 2g</a></li>
-<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Extended-Data-Figure-2h">8.7. Extended Data Figure 2h</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-S1">7. Figure S1</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-S1D">7.1. Figure S1D</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Extended-Data-Figure-3">9. Extended Data Figure 3</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Extended-Data-Figure-3a">9.1. Extended Data Figure 3a</a></li>
-<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Extended-Data-Figure-3b">9.2. Extended Data Figure 3b</a></li>
-<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Extended-Data-Figure-3c">9.3. Extended Data Figure 3c</a></li>
-<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Extended-Data-Figure-3d">9.4. Extended Data Figure 3d</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-S2">8. Figure S2</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-S2B">8.1. Figure S2B</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-S2C">8.2. Figure S2C</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-S2D">8.3. Figure S2D</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-S2E">8.4. Figure S2E</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-S2F">8.5. Figure S2F</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-S2G">8.6. Figure S2G</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-S2H">8.7. Figure S2H</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-S2I">8.8. Figure S2I</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-S2J">8.9. Figure S2J</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-S2K">8.10. Figure S2K</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-S2L">8.11. Figure S2L</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Extended-Data-Figure-4">10. Extended Data Figure 4</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Extended-Data-Figure-4b">10.1. Extended Data Figure 4b</a></li>
-<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Extended-Data-Figure-4c">10.2. Extended Data Figure 4c</a></li>
-<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Extended-Data-Figure-4d">10.3. Extended Data Figure 4d</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-S3">9. Figure S3</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-S3A">9.1. Figure S3A</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-S3B">9.2. Figure S3B</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-S3C">9.3. Figure S3C</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-S3D">9.4. Figure S3D</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Extended-Data-Figure-5">11. Extended Data Figure 5</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Extended-Data-Figure-5a">11.1. Extended Data Figure 5a</a></li>
-<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Extended-Data-Figure-5b">11.2. Extended Data Figure 5b</a></li>
-<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Extended-Data-Figure-5c">11.3. Extended Data Figure 5c</a></li>
-<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Extended-Data-Figure-5d">11.4. Extended Data Figure 5d</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-S4">10. Figure S4</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-S4B">10.1. Figure S4B</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-S4C">10.2. Figure S4C</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-S4D">10.3. Figure S4D</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-S5">11. Figure S5</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-S5A">11.1. Figure S5A</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-S5B">11.2. Figure S5B</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-S5C">11.3. Figure S5C</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-S5D">11.4. Figure S5D</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pages/notebooks/Plot_Figures_saved_data.html#Figure-S5E">11.5. Figure S5E</a></li>
 </ul>
 </li>
 </ul>
